@@ -8,5 +8,6 @@ export default class MainMenu extends BaseScene {
 	preload() {}
 	create() {
 		super.create()
+		this.scene.start('World')
 	}
 }

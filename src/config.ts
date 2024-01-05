@@ -33,8 +33,8 @@ export default {
 	scale: {
 		mode: Phaser.Scale.FIT,
 		autoCenter: Phaser.Scale.CENTER_BOTH,
-		width: 1280,
-		height: 720,
+		width: 640,
+		height: 360,
 		autoRound: true,
 	},
 	input: {
