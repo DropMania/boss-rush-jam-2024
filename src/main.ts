@@ -7,8 +7,9 @@ import MainMenu from './scenes/MainMenu'
 import LoadingScreen from './scenes/LoadingScreen'
 import World from './scenes/World'
 import Pong from './scenes/games/pong/Pong'
+import DonkeyKong from './scenes/games/donkeykong/DonkeyKong'
 new Phaser.Game(
 	Object.assign(config, {
-		scene: [LoadingScreen, Loading, MainMenu, UI, World, Pong],
+		scene: [LoadingScreen, Loading, MainMenu, UI, World, Pong, DonkeyKong],
 	})
 )

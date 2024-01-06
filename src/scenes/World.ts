@@ -14,12 +14,15 @@ export default class World extends BaseScene {
 				pos: { x: 100, y: 200 },
 				scene: 'Pong',
 			},
+			{
+				pos: { x: 200, y: 200 },
+				scene: 'DonkeyKong',
+			},
 		]
 	}
 	preload() {}
 	create() {
 		super.create()
-		console.log('World scene created!')
 		const machineBackground = this.add.image(0, 0, 'pong').setOrigin(0).setVisible(false).setDepth(10)
 		this.games.forEach((game) => {
 			this.add
