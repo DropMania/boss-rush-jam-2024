@@ -18,6 +18,10 @@ export default class World extends BaseScene {
 				pos: { x: 200, y: 200 },
 				scene: 'DonkeyKong',
 			},
+			{
+				pos: { x: 300, y: 200 },
+				scene: 'Rhythm',
+			},
 		]
 	}
 	preload() {}
