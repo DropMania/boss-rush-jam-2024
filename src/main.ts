@@ -9,8 +9,9 @@ import World from './scenes/World'
 import Pong from './scenes/games/pong/Pong'
 import DonkeyKong from './scenes/games/donkeykong/DonkeyKong'
 import Rhythm from './scenes/games/rhythm/Rhythm'
+import WhacAMole from './scenes/games/whac-a-mole/whac-a-mole'
 new Phaser.Game(
 	Object.assign(config, {
-		scene: [LoadingScreen, Loading, MainMenu, UI, World, Pong, DonkeyKong, Rhythm],
+		scene: [LoadingScreen, Loading, MainMenu, UI, World, Pong, DonkeyKong, Rhythm, WhacAMole],
 	})
 )

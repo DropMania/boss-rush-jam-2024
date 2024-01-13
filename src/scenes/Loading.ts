@@ -7,9 +7,9 @@ export default class Loading extends BaseScene {
 		super({ key: 'Loading' })
 	}
 	init() {
-		this.backgrounds = ['pong', 'donkeykong', 'rhythm']
+		this.backgrounds = ['pong', 'donkeykong', 'rhythm','whacamole']
 		this.static = ['dk_girder']
-		this.sprites = ['dk_barrel', 'dk_jumpman']
+		this.sprites = ['dk_barrel', 'dk_jumpman','mole','back_button','mole_hammer', 'Explosions']
 	}
 	preload() {
 		this.load.setBaseURL('assets/')
